@@ -1,0 +1,56 @@
+/* src/components/navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .auth-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .auth-buttons span {
+    margin-right: 10px;
+  }
+  
+  .auth-buttons button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .auth-buttons .login {
+    background-color: white;
+    color: #007bff;
+  }
+  
+  .auth-buttons .logout {
+    background-color: red;
+    color: white;
+  }
+  
+  .auth-buttons button:hover {
+    opacity: 0.8;
+  }
+  
